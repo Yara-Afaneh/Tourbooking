@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,600&display=swap');
+/* font-family: 'Hanken Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+/* font-family: 'La Belle Aurore', cursive; */
+
+:root{
+    --main-color:rgb(253, 76, 92);
+    font-family: 'Hanken Grotesk', sans-serif; 
+    overflow-x: hidden;
+}
+.bg-main-color{
+    background-color: var(--main-color);
+}
+
+.main-color{
+    color: var(--main-color);
+}
+.main-font{
+    font-family: 'Hanken Grotesk', sans-serif;;
+}
+/* start wishlist header */
+.wish-header-content{
+    background-image:linear-gradient(rgb(26, 26, 61,.5), rgb(26, 26, 61,.5)),url(../img/header-banner-tour-list.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+   width: 100%;
+
+}
+
+.wish-header-content div h1{
+    font-size: 60px;
+    font-weight: 700 !important;
+    line-height: 84px;
+
+}
+
+.wish-header-content div p, a{
+    font-size: 16px;
+    font-weight: 700 !important;
+    line-height: 22.4px;
+
+}
+.wish-header-content div i {
+    padding-top: 10px !important;
+}
+
+.wish-header-content div a:hover{
+    color: var(--main-color) !important;
+    cursor: pointer;
+}
+
+/* start wish list section */
+ .wishlist-title{
+    font-size: 12.8px;
+    font-weight: 700;
+    color: rgb(17, 27, 25);
+ }
+
+ .wishlist-icone2{
+     width: 26px;
+     height: 26px;
+     background-color: #45AFE2;
+     align-items: center;
+     padding-top: 4px;
+ }
+ .wishlist-icone1{
+    width: 26px;
+     height: 26px;
+   background-color: #39599E;
+   padding-top: 4px;
+}
+.wishlist-icone3{
+    width: 26px;
+     height: 26px;
+   background-color: #AB2E31;
+   padding-top: 4px;
+}
+.wishlist-icone4{
+    width: 26px;
+     height: 26px;
+   background-color: #FBB102;
+   padding-top: 4px;
+}
+.wishlist-icone5{
+    width: 26px;
+     height: 26px;
+   background-color: #00A901;
+   padding-top: 4px;
+}
+
+.wishlist-icone1:hover,.wishlist-icone2:hover,.wishlist-icone3:hover,.wishlist-icone4:hover,.wishlist-icone5:hover{
+ background-color:#39599E;
+ 
+}
+
+/* start footer section  */
+ .footer-head{
+    background-color: #1A1A3D;
+    color: white;
+ }
+
+ .footer-head .footer-contact-info i{
+    color:var(--main-color);
+}
+
+.footer-head .social-contact i:hover{
+    color: var(--main-color);
+    transform: scale(100%);
+}
+
+.footer-head .first-paragraph{
+    width: 80%;
+}
+.footer-head .footer-info:hover{
+    color: var(--main-color);
+    width: fit-content;
+}
+.footer-end{
+    background-color: #1A1A3D;
+    color: white;
+    
+}
+.footer-end .container{
+    border-top: 1px solid #FFFFFF1A ;
+}
+.visa-card{
+    width: 42px;
+    height: 25px;
+}
+.master-card{
+    width: 85px;
+    height: 14px;
+}
+.american-card{
+    width: 45px;
+    height: 14px;
+}
+.jcb-card{
+    width: 20px;
+    height: 14px;
+}
+
+
+ 
+

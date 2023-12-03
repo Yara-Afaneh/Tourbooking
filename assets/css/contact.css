@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,600&display=swap');
+/* font-family: 'Hanken Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+/* font-family: 'La Belle Aurore', cursive; */
+
+:root{
+    --main-color:rgb(253, 76, 92);
+    font-family: 'Hanken Grotesk', sans-serif; 
+    overflow-x: hidden;
+}
+.bg-main-color{
+    background-color: var(--main-color);
+}
+
+.main-color{
+    color: var(--main-color);
+}
+.main-font{
+    font-family: 'Hanken Grotesk', sans-serif;;
+}
+/* start destination header */
+.contact-header-content{
+    background-image:linear-gradient(rgb(26, 26, 61,.5), rgb(26, 26, 61,.5)),url(../img/header-banner-tour-list.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+   width: 100%;
+
+}
+
+.contact-header-content div h1{
+    font-size: 60px;
+    font-weight: 700 !important;
+    line-height: 84px;
+
+}
+
+.contact-header-content div p, a{
+    font-size: 16px;
+    font-weight: 700 !important;
+    line-height: 22.4px;
+
+}
+.contact-header-content div i {
+    padding-top: 10px !important;
+}
+
+.contact-header-content div a:hover{
+    color: var(--main-color) !important;
+    cursor: pointer;
+}
+/* start contact section */
+.contacts .container{
+    box-shadow: 1px 0px 19px 6px #156fc914;
+}
+.get-in-touch .contact-us h3{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 24 px;
+    font-weight: 400;
+    color: rgb(0, 187, 152);
+}
+.get-in-touch .contact-us h1{
+    font-size: 42 px;
+    font-weight: 700;
+    color: rgb(17, 27, 25);
+}
+
+.get-in-touch p{
+    font-size: 16 px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+}
+.contact-icone .icone{
+   background-color: #00BB981A;
+}
+.contact-icone .contact-information p{
+    color:  rgb(68, 68, 68);
+}
+.contact-icone .icone i{
+    font-size: 40px;
+    color: #00BB98;
+}
+.contacts .column1{
+    border-right: solid 1px #E6E6E6;
+}
+.contacts .contact-icone .contact-informations a{
+    color: rgb(68, 68, 68)!important;
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+
+.contacts .contact-icone .contact-informations a:hover{
+   color: var(--main-color)!important;
+}
+
+
+.contacts .contact-icone .contact-informations a::after{
+    content: '';
+    width:0;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+
+}
+.contacts .contact-icone .contact-informations a:hover::after{
+    content: '';
+    border:solid 1px var(--main-color);
+    width:100%;
+}
+.need-help-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.need-help{
+    border: solid 1px #E6E6E6;
+    width:65%;
+    margin: auto;
+    padding: 20px;
+}
+.chat-us a{
+  color: var(--main-color);
+  border: solid 1px var(--main-color);
+}
+.chat-us p{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    text-align: left;
+}
+.need-help-info{
+    border-bottom: solid 1px #E6E6E6;
+}
+
+
+.contacts .container{
+    transform: translate(0%,-10%);
+    background-color: white;
+}
+
+
+
+/* start footer section  */
+
+
+ .footer-head{
+    background-color: #1A1A3D;
+    color: white;
+    
+ }
+
+ .footer-head .footer-contact-info i{
+    color:var(--main-color);
+}
+
+.footer-head .social-contact i:hover{
+    color: var(--main-color);
+    transform: scale(100%);
+}
+
+.footer-head .first-paragraph{
+    width: 80%;
+}
+.footer-head .footer-info:hover{
+    color: var(--main-color);
+    width: fit-content;
+}
+.footer-end{
+    background-color: #1A1A3D;
+    color: white;
+    
+}
+.footer-end .container{
+    border-top: 1px solid #FFFFFF1A ;
+}
+.visa-card{
+    width: 42px;
+    height: 25px;
+}
+.master-card{
+    width: 85px;
+    height: 14px;
+}
+.american-card{
+    width: 45px;
+    height: 14px;
+}
+.jcb-card{
+    width: 20px;
+    height: 14px;
+}
+
+
+ 
+

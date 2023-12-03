@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,600&display=swap');
+/* font-family: 'Hanken Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+/* font-family: 'La Belle Aurore', cursive; */
+
+:root {
+    --main-color: rgb(253, 76, 92);
+    font-family: 'Hanken Grotesk', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.main-font {
+    font-family: 'Hanken Grotesk', sans-serif;
+    ;
+}
+
+/* start tour header */
+.tour-header-content {
+    background-image:linear-gradient(rgb(26, 26, 61,.5), rgb(26, 26, 61,.5)),url(../img/header-banner-tour-list.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tour-header-content div h1 {
+    font-size: 60px;
+    font-weight: 700 !important;
+    line-height: 84px;
+
+}
+
+.tour-header-content div p,
+a {
+    font-size: 16px;
+    font-weight: 700 !important;
+    line-height: 22.4px;
+
+}
+
+.tour-header-content div i {
+    padding-top: 10px !important;
+}
+
+.tour-header-content div a:hover {
+    color: var(--main-color) !important;
+    cursor: pointer;
+}
+
+.tour-header .search{
+  transform: translate(0%,-57%);
+  -webkit-transform: translate(0%,-57%);
+   -moz-transform: translate(0%,-57%);
+   -ms-transform:translate(0%,-57%);
+   -o-transform: translate(0%,-57%);
+  box-shadow: 1px 0px 19px 6px #156fc914;
+ }
+
+/* end tour header */
+
+/* start tour content */
+
+.tour-search .icon-search {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 3px !important;
+}
+
+.tour-search .icone {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(153, 153, 153);
+    padding-top: 5px !important;
+}
+
+.tour-search .search-sec span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26.08px;
+    color: rgb(68, 68, 68);
+    border-bottom: 1px solid #e6e6e6;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.special-button{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.tour-search .search-sec span:hover {
+    border-bottom: 1px solid #05977C;
+}
+
+.tour-search .search-result span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: rgb(17, 27, 25);
+}
+
+.tour-search .search-result a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26.08px;
+    color: rgb(0, 141, 208);
+    text-decoration: none;
+}
+
+.tour-search .search-result a:hover {
+    color: var(--main-color);
+}
+
+.tour-search .search-top {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.tour-search .filter {
+    cursor: pointer;
+}
+
+.tour-search .filter span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: rgb(17, 27, 25);
+}
+
+.tour-search .filter .fa-arrows-up-down {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: rgb(68, 68, 68);
+}
+
+.tour-search .filter .fa-table-list {
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(68, 68, 68);
+}
+
+.tour-search .filter .fa-table-cells {
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(0, 187, 152);
+}
+
+.tour-search .filter .fa-table-list:hover {
+    color: rgb(0, 187, 152);
+}
+
+.tour-search .search-result-special {
+    display: none;
+}
+
+
+.search-result-content .feature {
+    position: absolute;
+    top: -165px;
+    left: 15px;
+    width: 90%;
+}
+
+.search-result-content .hours {
+    border: 1px solid rgb(0, 187, 152);
+    width: 40%;
+    position: absolute;
+    top: -20px;
+    left: 12px;
+    background-color: white;
+}
+
+.search-result-content .card-body .btn:hover {
+    color: var(--main-color)!important;
+    background-color: white!important;
+    border: 1px solid var(--main-color)!important;
+}
+
+.search-result-content .location-icone {
+    color: rgb(0, 187, 152);
+}
+
+.search-result-content .hours span,
+.search-result-content .hours {
+    color: rgb(0, 187, 152);
+}
+
+.feature i {
+    background-color: white;
+    color: rgb(153, 153, 153);
+}
+.btn-1.active{
+    background-color: var(--main-color);
+    color: white;
+ }
+/* end tour content */
+/* start subscribe css */
+.subscribe-content{
+    background-color: rgb(0,187,152);
+    background-image: url(../img/bg-form-subscribe.png);
+    background-position-x:right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.subscribe-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    color:  rgb(255, 255, 255);
+}
+/* end subscribe css */
+/* start footer css */
+.footer-head {
+    background-color:white;
+    color:  rgb(68, 68, 68);
+}
+
+.footer-head .footer-contact-info i {
+    color: var(--main-color);
+}
+.footer-head .social-contact i{
+    color: #444444;
+    font-size: 24px;
+}
+.footer-head .social-contact i:hover{
+    color:var(--main-color);
+}
+
+.footer-head .footer-info:hover {
+    color: var(--main-color);
+    width: fit-content;
+}
+.footer-head .footer-contact-info a{
+    color: #444444;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* end footer css */
